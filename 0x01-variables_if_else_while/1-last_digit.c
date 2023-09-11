@@ -1,10 +1,12 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
 
 /**
  * main - program assign a random number
- * Return: 0 always
+ * Return: 0 (true)
  */
 
 int main(void)
@@ -23,7 +25,7 @@ int main(void)
 	{
 	printf("last digit of %d is %d and is greater than 0\n", n, lastd);
 	{
-	else if (lastd < 6 && lastd != 0)
+	else (lastd < 6 && lastd != 0)
 	{
 	printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
