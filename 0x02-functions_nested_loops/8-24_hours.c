@@ -2,6 +2,7 @@
 /**
  * jack_bauer - Prints every minute of the day
  * of jack bauer from 00:00 to 23:59
+ * Return: 0 (true)
  */
 
 void jack_bauer(void)
@@ -22,5 +23,7 @@ _putchar('\n');
 j++;
 }
 i++;
+
+return (0);
 }
 }
